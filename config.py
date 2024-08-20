@@ -14,17 +14,17 @@ from logging.handlers import RotatingFileHandler
 
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+APP_ID = int(os.environ.get("APP_ID", "20166883"))
+API_HASH = os.environ.get("API_HASH", "2ed83c06296da199c977de79dc171089")
 
 
 OWNER = os.environ.get("OWNER", "https://t.me/Grand_Zeno_Omni_KingBot") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "5806054139")) #Owner user id
+OWNER_ID = int(os.environ.get("OWNER_ID", "5154825025")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002042077879"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002174911824"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002122508523"))
 
 
