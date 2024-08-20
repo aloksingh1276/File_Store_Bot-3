@@ -20,7 +20,7 @@ API_HASH = os.environ.get("API_HASH", "2ed83c06296da199c977de79dc171089")
 
 OWNER = os.environ.get("OWNER", "https://t.me/Grand_Zeno_Omni_KingBot") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "5154825025")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://animebhau60:F66EK72xqzfumHR7@cluster0.mgupyii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
